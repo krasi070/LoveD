@@ -20,11 +20,9 @@ LOVE/D is a Chrome's T-Rex Runner and Geometry Dash clone game made in Unity. It
 
 9. No sound effects whatsoever or music.
 
-10. No way to exit the game from the game itself.
+10. Way too many unnecessary colliders and collision detections for this kind of game.
 
-11. Way too many unnecessary colliders and collision detections for this kind of game.
-
-12. And more that aren't coming to mind while I am writing this...
+11. And more that aren't coming to mind while I am writing this...
 
 [HELPFUL RESOURCES]
 1. Sebastian Lague's 2D Platformer Controller series: https://www.youtube.com/playlist?list=PLFt_AvWsXl0f0hqURlhyIoAabKPgRsqjz
