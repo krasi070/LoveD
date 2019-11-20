@@ -15,12 +15,15 @@ public class GameMaster : MonoBehaviour
     // This is used when the player falls down a hole
     public Text foundDeathText;
 
+    public RawImage exitFade;
+
     public CameraZoom mainCamera;
 
     public Transform loveBox;
     public Transform ground;
 
     private float _timer;
+    private float _fadeTimer = 1f;
     private bool _inGame;
     private bool _zoomingIn;
     private bool _zoomingOut;
@@ -33,6 +36,7 @@ public class GameMaster : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
         InitColors();
         InstantiateGround();
         SpawnPlayer(new Vector2(-1f, -4f));
@@ -40,6 +44,23 @@ public class GameMaster : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            _fadeTimer -= Time.deltaTime;
+            if (_fadeTimer <= 0)
+            {
+                Application.Quit();
+            }
+
+            exitFade.color = new Color(0, 0, 0, 1 - _fadeTimer);
+        }
+
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            _fadeTimer = 1f;
+            exitFade.color = new Color(0, 0, 0, 0);
+        }
+
         if (_loveBoxInstance != null)
         {
             if (_inGame)
