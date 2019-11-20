@@ -44,7 +44,10 @@ and the usgage of them in the scripts.
 12. And more that aren't coming to mind while I am writing this...
 
 [HELPFUL RESOURCES]
-Sebastian Lague's 2D Platformer Controller series: https://www.youtube.com/playlist?list=PLFt_AvWsXl0f0hqURlhyIoAabKPgRsqjz
-Blackthornprod's Dash Move video: https://www.youtube.com/watch?v=w4YV8s9Wi3w
-Blackthornprod's Hold Jump Key To Jump Higher video: https://www.youtube.com/watch?v=j111eKN8sJw
+Sebastian Lague's 2D Platformer Controller series:
+https://www.youtube.com/playlist?list=PLFt_AvWsXl0f0hqURlhyIoAabKPgRsqjz
+Blackthornprod's Dash Move video:
+https://www.youtube.com/watch?v=w4YV8s9Wi3w
+Blackthornprod's Hold Jump Key To Jump Higher video:
+https://www.youtube.com/watch?v=j111eKN8sJw
 (although I didn't end up using this approach to jumping)
